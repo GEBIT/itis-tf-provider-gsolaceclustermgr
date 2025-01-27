@@ -41,7 +41,7 @@ jobs:
         #uses: golangci/golangci-lint-action@v6     # was 3cfe3a4abbb849e10058ce4af15d205b6da42804 # v4.0.0
         #with:
         #  version: v1.61.0   # the version of golangci-lint, maybe not latests
-        uses: super-linter/super-linter@v7.1.0 # x-release-please-version
+        uses: super-linter/super-linter@v7.2.1 # x-release-please-version
         env:
           GO111MODULE: on
           # only GO
